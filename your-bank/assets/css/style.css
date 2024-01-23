@@ -1,0 +1,647 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: black;
+  font-family: Lexend;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.w-1 {
+  width: 8.33%;
+}
+
+.w-2 {
+  width: 16.66;
+}
+
+.w-3 {
+  width: 25%;
+}
+
+.w-4 {
+  width: 33.33%;
+}
+
+.w-5 {
+  width: 41.66%;
+}
+
+.w-6 {
+  width: 50%;
+}
+
+.w-7 {
+  width: 58.33%;
+}
+
+.w-8 {
+  width: 66.66%;
+}
+
+.w-9 {
+  width: 75%;
+}
+
+.w-10 {
+  width: 83.33%;
+}
+
+.w-11 {
+  width: 91.66%;
+}
+
+.w-12 {
+  width: 100%;
+}
+
+.w-1,
+.w-2,
+.w-3,
+.w-4,
+.w-5,
+.w-6,
+.w-7,
+.w-8,
+.w-9,
+.w-10,
+.w-11,
+.w-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.today a, .Frequently .bu-1, .Individuals a, .Products .d-1 .back .btn-3 a, .Journey .img-content a, header .heade .last-bt ul li a .btn-1 {
+  color: black;
+  border-radius: 40px;
+  padding: 10px 20px;
+  background-color: #CAFF33;
+  margin-left: 20px;
+}
+
+header {
+  margin-bottom: 50px;
+  background-image: url(../img/Group\ \(2\).png);
+  background-repeat: no-repeat;
+}
+header .heade {
+  width: 100%;
+  margin: 30px 0;
+  background-color: #1C1C1C;
+  padding: 20px 15px;
+  border-radius: 40px;
+}
+header .heade .logo {
+  width: 115px;
+}
+header .heade .menu ul li {
+  padding: 5px 10px;
+}
+header .heade .menu ul li a {
+  color: white;
+  background-color: #262626;
+  padding: 15px 20px;
+  border-radius: 40px;
+}
+header .heade .last-bt ul li a {
+  color: white;
+}
+.Journey {
+  position: relative;
+  margin: 100px;
+}
+.Journey .img-content i {
+  background-color: #CAFF33;
+  border-radius: 50px;
+  padding: 2px;
+  margin-right: 10px;
+}
+.Journey .img-content span {
+  color: white;
+  font-size: 18px;
+  background-color: #1C1C1C;
+  padding: 10px;
+  border-radius: 40px;
+}
+.Journey .img-content h2 {
+  color: white;
+  font-size: 48px;
+  line-height: 70px;
+  margin: 25px 0;
+}
+.Journey .img-content a {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding: 20px 10px;
+}
+.Journey .arow {
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  right: -100px;
+  z-index: -1;
+}
+
+.Products {
+  margin: 100px 0;
+}
+.Products h2 {
+  font-size: 48px;
+  color: white;
+  font-weight: 500;
+  padding-left: 15px;
+}
+.Products span {
+  font-size: 48px;
+  color: #CAFF33;
+  font-weight: 500;
+}
+.Products .d-1 .back {
+  background-color: #1C1C1C;
+  border-radius: 50px;
+  padding: 20px 10px;
+}
+.Products .d-1 .back .btn-3 {
+  margin: 10px 0;
+  margin-right: 20px;
+}
+.Products .d-1 .back .btn-3 a {
+  padding: 15px;
+}
+.Products .d-1 .back a {
+  color: white;
+  margin-left: 15px;
+}
+.Products .d-1 .border {
+  margin: 40px 0;
+}
+.Products .d-1 .border i {
+  color: #CAFF33;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin: 50px 0;
+}
+.Products .d-1 .border h5 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin: 5px;
+}
+.Products .d-1 .border .img-box {
+  margin: 20px 0;
+  border: 2px solid #1C1C1C;
+  padding: 5px 40px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.Individuals {
+  margin: 100px 0px;
+}
+.Individuals h2 {
+  color: #CAFF33;
+  font-size: 48px;
+  margin: 0px;
+  font-weight: 500;
+}
+.Individuals .use .f-c-1 {
+  background-color: rgba(28, 28, 28, 0.3803921569);
+  padding: 30px;
+  border-radius: 30px;
+  background-image: url(../img/Abstract\ Design.png);
+  background-repeat: no-repeat;
+}
+.Individuals .use .four-box {
+  margin: 10px;
+  background-color: black;
+  border-radius: 30px;
+}
+.Individuals .use .four-box img {
+  width: 60px;
+}
+.Individuals .use .four-box h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 10px;
+}
+.Individuals .use .four-box1 {
+  background-color: black;
+  margin: 10px;
+  border-radius: 20px;
+}
+.Individuals .use .four-box1 img {
+  width: 60px;
+}
+.Individuals .use .four-box1 h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 10px;
+}
+.Individuals .use .four-box-content {
+  margin-left: 30px;
+}
+.Individuals .use .four-box-content h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+.Individuals .use .four-box-content .pr h2 {
+  color: #CAFF33;
+  font-size: 58px;
+  font-weight: 500;
+}
+.Individuals a {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 20px 20px;
+  background-color: rgba(28, 28, 28, 0.6078431373);
+  color: white;
+  border: 5px solid #1C1C1C;
+}
+
+.order {
+  order: -1;
+}
+
+.Features {
+  margin-bottom: 100px;
+}
+.Features h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+}
+.Features span {
+  color: #CAFF33;
+  font-size: 48px;
+  font-weight: 500;
+}
+.Features .time-ac .t-3 {
+  background-color: rgba(28, 28, 28, 0.5568627451);
+  width: 270px;
+  height: 350px;
+  padding: 50px 0px;
+  border-radius: 30px;
+}
+.Features .time-ac .t-3 h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #CAFF33;
+  padding: 20px 10px;
+  text-align: center;
+  background-color: black;
+  margin: 20px 20px;
+  border-radius: 30px;
+  border: 5px solid #1C1C1C;
+}
+.Features .time-ac .t-3 h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  margin: 20px 20px;
+  background-color: black;
+  border-radius: 30px;
+  border: 5px solid #1C1C1C;
+}
+.Features .time-ac .twenty-4houre .ba-c1 {
+  width: 450px;
+  height: 250px;
+  background-color: rgba(28, 28, 28, 0.631372549);
+  border: 5px solid #1C1C1C;
+  padding: 20px 20px;
+  margin: 7px 4px;
+  border-radius: 20px;
+}
+.Features .time-ac .twenty-4houre .ba-c1 h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: white;
+}
+.Features .time-ac .twenty-4houre .ba-c1 img {
+  width: 30px;
+}
+.Frequently h2 {
+  color: #CAFF33;
+  font-size: 48px;
+  margin: 0px;
+  font-weight: 500;
+}
+.Frequently span {
+  color: white;
+  font-size: 48px;
+  margin: 0px;
+  font-weight: 500;
+}
+.Frequently .f-4 .b-1 {
+  border: 1px solid #1C1C1C;
+  border-radius: 20px;
+  margin: 20px 10px;
+}
+.Frequently .f-4 .b-1 h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 30px 30px;
+}
+.Frequently .f-4 .b-1 .line-throw {
+  border: 1px solid #1C1C1C;
+  width: 500px;
+  margin: 0px 50px;
+}
+.Frequently .f-4 .b-1 p {
+  font-weight: 300;
+  padding: 30px 20px;
+  line-height: 30px;
+}
+.Frequently .bu-1 {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 20px 20px;
+  background-color: rgba(28, 28, 28, 0.6078431373);
+  color: white;
+  border: 5px solid #1C1C1C;
+}
+.Frequently .bu-1 {
+  margin: 10px auto;
+}
+
+.started .tell .b1, .started .tell .b3 {
+  background: linear-gradient(270deg, rgba(25, 25, 25, 0) 0%, #191919 105.84%);
+  border-radius: 20px;
+}
+.started .tell .digital {
+  padding: 20px;
+}
+.started .tell .digital .web img {
+  width: 60px;
+  height: 60px;
+}
+.started .tell .digital p {
+  padding: 30px 20px;
+}
+.started .tell .digital h6 {
+  text-align: center;
+  color: #CAFF33;
+  font-size: 18px;
+}
+
+.today {
+  margin: 100px;
+  background-color: rgba(28, 28, 28, 0.462745098);
+  padding: 40px;
+  border-radius: 30px;
+  background-image: url(../img/Abstract\ Design.png);
+  background-repeat: no-repeat;
+}
+.today h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+.today span {
+  color: #CAFF33;
+  font-size: 40px;
+  font-weight: 500;
+}
+.today a {
+  padding: 20px 10px;
+}
+
+.last {
+  background-color: rgba(28, 28, 28, 0.5176470588);
+  margin: 100px 0px;
+}
+.last .address {
+  margin: 55px 0;
+}
+.last .address img {
+  width: 100px;
+  margin: 20px auto;
+}
+.last .address .f-menu ul li {
+  color: white;
+  padding: 24px 10px;
+}
+.last .address .f-menu .help {
+  padding: 20px;
+  border: 1px solid #262626;
+  border-left: 0;
+  border-right: 0;
+}
+.last .address .f-menu .help i {
+  color: #CAFF33;
+  width: 24px;
+  padding: 25px;
+}
+.last .address .f-menu .fti {
+  padding: 2px;
+  background-color: rgba(0, 0, 0, 0.389);
+  border-radius: 50px;
+  margin: 50px;
+}
+.last .address .f-menu .fti img {
+  width: 30px;
+  padding: 2px;
+}
+.Press p, .m-v p, .Benefits p, .Frequently-1 .f-4 .b-1 p, .Frequently-1 p, .welcome .img-content p, .Journey .img-content p, .Products .d-1 p, .Products .d-1 .border .img-box .i-3, .Individuals p, .Individuals .use .four-box-content p, .Features p, .Features .time-ac .twenty-4houre .ba-c1 p, .Frequently p, .Frequently .f-4 .b-1 p, .started .tell .digital p, .today p, .last .address .f-menu .help p, .last .address .f-menu .fti p {
+  color: #B3B3B3;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.Press h2, .m-v h2, .Benefits h2, .welcome .img-content h2 {
+  color: white;
+  font-size: 58px;
+  font-weight: 500;
+}
+.Press span, .m-v span, .Benefits span, .welcome .img-content span {
+  color: #CAFF33;
+  font-size: 58px;
+  font-weight: 500;
+}
+.Press h3, .m-v h3, .Benefits h3, .welcome .img-content h3 {
+  color: white;
+  font-size: 58px;
+  font-weight: 500;
+}
+
+.welcome {
+  margin: 80px 0px;
+}
+.welcome .img-content {
+  position: relative;
+  padding: 50px 40px;
+  background-color: #1A1A1A;
+  border-radius: 0px 0px 50px 0px;
+}
+.welcome .img-banner img {
+  position: absolute;
+  width: 800px;
+  height: 550px;
+  z-index: -2;
+  right: 100px;
+}
+
+.Frequently-1 {
+  margin: 80px 0;
+  padding: 100px 0;
+}
+.Frequently-1 h2 {
+  color: #CAFF33;
+  font-size: 48px;
+  margin: 0px;
+  font-weight: 500;
+}
+.Frequently-1 span {
+  color: white;
+  font-size: 48px;
+  margin: 0px;
+  font-weight: 500;
+}
+.Frequently-1 p {
+  padding: 5px 20px;
+}
+.Frequently-1 .f-4 .b-1 {
+  border: 1px solid #CAFF33;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+  margin: 30px 5px;
+  padding: 10px;
+}
+.Frequently-1 .f-4 .b-1 h4 {
+  color: #4C4C4D;
+  font-size: 58px;
+  font-weight: 500;
+}
+.Frequently-1 .f-4 .b-1 p {
+  font-weight: 300;
+  padding: 10px 10px;
+  line-height: 30px;
+}
+
+.Benefits {
+  margin: 150px 0;
+}
+.Benefits p {
+  margin: 20px 0px;
+}
+.Benefits .work .fo-4 {
+  margin: 20px 10px;
+  padding: 30px;
+  background-color: #1C1C1C;
+  border-radius: 30px;
+}
+.Benefits .work .fo-4 .ico-content {
+  padding: 30px 0px;
+}
+.Benefits .work .fo-4 .ico-content img {
+  width: 60px;
+}
+.Benefits .work .fo-4 .ico-content h2 {
+  color: white;
+  font-size: 24px;
+  padding: 0px 20px;
+}
+
+.m-v {
+  margin: 15px 0px;
+}
+.m-v .tow-box {
+  margin-top: 50px 0px;
+}
+.m-v .tow-box .imgs {
+  background-image: url(../img/a-1.png);
+  background-repeat: no-repeat;
+  background-color: rgba(28, 28, 28, 0.6901960784);
+  padding: 40px 40px 0px 40px;
+  border-radius: 20px;
+}
+.m-v .tow-box .im-co {
+  padding: 80px;
+}
+.m-v .tow-box .im-co h2 {
+  font-size: 38px;
+}
+.m-v .tow-box .im-co P {
+  line-height: 25px;
+}
+
+.Press p {
+  padding: px 0px;
+}
+.Press .coustomer {
+  margin: 20px 10px;
+}
+.Press .las-1 {
+  background-color: #1C1C1C;
+  border-radius: 25px;
+  padding: 25px;
+}
+.Press .las-1 h2 {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.Press .las-1 .ind h3 {
+  color: #B3B3B3;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.307);
+  margin: 0 5px;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */

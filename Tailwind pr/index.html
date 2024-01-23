@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jano full web..</title>
+    <link rel="shortcut icon" href="assets/img/title-icone.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/output.css">
+    <!-- fonts link -->
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+</head>
+
+<body>
+
+
+
+    <header class="header px-[52px] py-5 shadow-[0px_13px_35px_-12px_rgba(35,35,35,0.10)]"
+        style="box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.10);">
+        <div class="grid grid-cols-2 lg:grid-cols-3 justify-between items-center">
+            <div class="logo">
+                <img src="assets/img/image.png" alt="">
+            </div>
+            <div class="menu hidden lg:flex">
+                <ul class="flex justify-between w-full font-inter font-medium text-lg">
+                    <li>
+                        <a href="#" class="text-pink">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-btn flex justify-end items-center hidden lg:flex">
+                <div class="user w-12 h-12 rounded-full gray-2 gray-gray me-4 flex justify-center items-center">
+                    <i class="fa-regular text fa-user text-pink"></i>
+                </div>
+                <a href="#">
+                    <div class="btn px-[35px] py-[13px] rounded-full text-base font-medium text-white bg-pink">
+                        Contact us
+                    </div>
+                </a>
+            </div>
+            <div class="icon flex justify-end text-[20px] lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section
+        class="banner relative z-10 flex justify-center py-[110px] after:content-[''] after:absolute after:bg-[url('/img/banner2.png')] after:bottom-0 after:right-0 after:w-[360px] after:h-[480px] after:bg-cover after:bg-no-repeat
+    before:content-[''] before:absolute before:bg-[url('/img/banner1.png')] before:bottom-0 before:left-0 before:w-[366px] before:h-[488px] before:bg-cover before:bg-no-repeat">
+        <div class="container">
+            <div class="flex justify-center">
+                <div class="banner-content w-[100%] lg:w-[60%] text-center">
+                    <h1 class=" text-[32px] lg:text-[90px] text-normal leading-tight">Everything for your <span
+                            class="text-pink">Home</span> & Future.</h1>
+                    <p class="text-[16px] lg:text-[24px] m-5">Instant everything. Incredible prices. Big heart.</p>
+                    <form>
+                        <input type="text"
+                            class="bg-bg-gray outline-none placeholder:text-black w-[285px] rounded-l-[7px] h-[60px] ps-3 gray-2 gray-gray2"
+                            placeholder="Select insurance type...">
+                        <input type="text"
+                            class="bg-bg-gray outline-none placeholder:text-black ms-[-7px] w-[285px] lg:w-[180px] h-[60px] ps-3 gray-2 rounded-l-[7px] gray-gray2 my-[10px]"
+                            placeholder="Your Zip Code">
+                        <button type="submit"
+                            class="mt-5 outline-none bg-pink text-bold w-[110px] h-[60px]  lg:ms-[-7px] py-[18px] px-[27px] text-white block rounded-r-[7px] mx-auto lg:inline-block">Search</button>
+                    </form>
+                    <h4 class=" pt-5 lg:pt-[130px] text-[16px] text-pink"><i class="fa-solid fa-check me-3"></i>An UK insurer
+                        approved by the UICO.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[102px] px-[102px]">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+                <div class="px-[25px] py-[11px]">
+                    <div class="service bg-[#FFFEE7] p-[33px] rounded-[10px]">
+
+                        <h2 class="text-[28px] font-bold">Regulated by <br>
+                            WICO.</h2>
+                        <p class="text-[18px] pt-3 text-[rgba(0, 0, 0, 0.50)]">100% Reliable</p>
+                        <div class="flex justify-end">
+                            <img src="assets/img/icon_100.svg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[25px] py-[10px]">
+                    <div class="service bg-[#FBF1FF] p-[32px] rounded-[10px]">
+
+                        <h2 class="text-[28px] font-bold">Get Instant support
+                            <br> all day.
+                        </h2>
+                        <p class="text-[17px] pt-3 text-[rgba(0, 0, 0, 0.50)]">Claim Support</p>
+                        <div class="flex justify-end">
+                            <img src="assets/img/icon_101.svg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[25px] py-[10px]">
+                    <div class="service bg-[#EEFBFA] p-[32px] rounded-[10px]">
+
+                        <h2 class="text-[28px] font-bold">Unbiased advice <br>
+                            from expert.
+                        </h2>
+                        <p class="text-[17px] pt-3 text-[rgba(0, 0, 0, 0.50)]">Consultation</p>
+                        <div class="flex justify-end">
+                            <img src="assets/img/icon_102.svg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-2 pb-[205px]">
+        <div class="container mx-auto">
+            <div class="title text-center">
+                <h2 class="text-[33px] lg:text-[63px] font-semibold">Top Rated Insurance Agency</h2>
+                <p class="text-[18px] lg:text-[24px] font-semibold text-[rgba(0,0,0,0.5)] py-2">“I couldn’t have asked for a better
+                    experience with
+                    Jano!”</p>
+                <span class="text-pink text-[16px]">
+                    <i class="fa-solid fa-star">
+                        <i class="fa-solid fa-star">
+                            <i class="fa-solid fa-star">
+                                <i class="fa-solid fa-star">
+                                    <i class="fa-solid fa-star"></i>
+                                </i>
+                            </i>
+                        </i>
+                    </i>
+                </span>
+                <span class="text-[21px] ps-2">4.8</span>
+                <span class="text-[21px] text-[rgba(0,0,0,0.3)] font-semibold">(30k Reviews)</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[82px] bg-[#F6F9FB]">
+        <div class="container mx-auto">
+            <div class="flex">
+                <div class="grid grid-cols-1 lg:grid-cols-2 w-full">
+                    <div class="option-img relative py-1">
+                        <img src="assets/img/man.png" class="w-[50%] lg:w-[65%] lg:absolute bottom-0 left-[-15%] translate-x-2/4"
+                            alt="">
+                        <img src="assets/img/div.card-style.png" class="absolute top-[31px] right-[100px] w-[250px] hidden lg:flex"
+                            alt="">
+                        <img src="assets/img/div.card-style (1).png" class="absolute top-[20%] left-[10px] w-[200px] hidden lg:flex"
+                            alt="">
+                        <img src="assets/img/div.card-style (2).png"
+                            class="absolute bottom-[-23%] right-[30%] w-[300px] hidden lg:flex" alt="">
+                    </div>
+                    <div class="option-content py-1  text-center lg:text-left">
+                        <img src="assets/img/icon_103.svg.png" alt="" class="mx-auto lg:mx-0">
+                        <h2 class="text-[25px] lg:text-[42px] font-semibold py-3 leading-tight lg:pr-[120px]">The team signed <span
+                                class="text-pink">~$7,000,000</span> in new business in july.
+                                <br>
+                            Accelerator has been a 
+
+                            large part of that.</h2>
+                        <div class="block-quote py-3">
+                            <p class="text-[10px] lg:text-[20px] py-2">-- Jessica Woodbeck</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-[122px]">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2">
+                <div class="cover ps-[66px]">
+                    <h1 class="text-[30px] lg:text-[58px] font-semibold">Discover all our <br>
+                        Services.</h1>
+                </div>
+                <div class="flex justify-end">
+                    <div class="btn my-[20px] lg:my-[70px] lg:pe-3">
+                        <a href="#" class="px-[45px] py-[15px] block inline-block rounded-lg  text-white bg-pink">View all
+                            Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1   lg:grid-cols-4 p-[51px]">
+                <div class="border-2 border border-gray my-2 rounded-[10px] mx-[8px]">
+                    <div class="Insurance pt-[50px] pb-[90px] px-[12px]">
+                        <div class="flex justify-center">
+                            <img src="assets/img/icon_104.svg.png" class="w-[60px] h-[56px]" alt="">
+                        </div>
+                        <p class="text-[18px] text-[#ADADAD] pt-[24px] text-center">I want</p>
+                        <h2 class="text-[24px] text-center font-bold">Home Loan</h2>
+                    </div>
+                    <div class="flex justify-end">
+                        <a href="#">
+                            <div
+                                class="flex box justify-center bg-[#F7F7F7] w-[50px] items-center h-[50px]  rounded-br-lg  rounded-tl-full">
+                                <i
+                                    class="fa-solid fa-arrow-right-long text-[20px] ps-[30px] pt-[20px] pr-[15px] pb-[10px]"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border-2 border border-gray my-2 rounded-[10px] mx-[9px]">
+                    <div class=" Insurance   pt-[50px] pb-[55px] px-[14px]">
+                        <div class="flex justify-center">
+                            <img src="assets/img/icon_105.svg.png" class="w-[60px] h-[56px]" alt="">
+                        </div>
+                        <p class="text-[18px] text-[#ADADAD] pt-[24px] text-center">I want</p>
+                        <h2 class="text-[24px] text-center font-bold">Travel <br>Insurance</h2>
+                    </div>
+                    <div class="flex justify-end">
+                        <a href="#">
+                            <div
+                                class="flex box justify-center bg-[#F7F7F7] w-[50px] items-center h-[50px]  rounded-br-lg  rounded-tl-full">
+                                <i
+                                    class="fa-solid fa-arrow-right-long text-[20px] ps-[30px] pt-[20px] pr-[15px] pb-[10px]"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border-2 border border-gray my-2 rounded-[10px] mx-[8px]">
+                    <div class=" Insurance   pt-[50px] pb-[90px] px-[12px]">
+                        <div class="flex justify-center">
+                            <img src="assets/img/icon_106.svg.png" class="w-[60px] h-[56px]" alt="">
+                        </div>
+                        <p class="text-[18px] text-[#ADADAD] pt-[24px] text-center">I want</p>
+                        <h2 class="text-[24px] text-center font-bold">Insure the Car</h2>
+                    </div>
+                    <div class="flex justify-end">
+                        <a href="#">
+                            <div
+                                class="flex box justify-center bg-[#F7F7F7] w-[50px] items-center h-[50px]  rounded-br-lg  rounded-tl-full">
+                                <i
+                                    class="fa-solid fa-arrow-right-long text-[20px] ps-[30px] pt-[20px] pr-[15px] pb-[10px]"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border-2 border border-gray my-2 rounded-[10px] mx-[8px]">
+                    <div class=" Insurance   pt-[50px] pb-[55px] px-[12px]">
+                        <div class="flex justify-center">
+                            <img src="assets/img/icon_107.svg.png" class="w-[60px] h-[56px]" alt="">
+                        </div>
+                        <p class="text-[18px] text-[#ADADAD] pt-[24px] text-center">I want</p>
+                        <h2 class="text-[24px] text-center font-bold">Health <br> Insurance</h2>
+                    </div>
+                    <div class="flex justify-end">
+                        <a href="#">
+                            <div
+                                class="flex box justify-center bg-[#F7F7F7] w-[50px] items-center h-[50px]  rounded-br-lg  rounded-tl-full">
+                                <i
+                                    class="fa-solid fa-arrow-right-long text-[20px] ps-[30px] pt-[20px] pr-[15px] pb-[10px]"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="value py-[82px]">
+        <div class="container mx-auto">
+            <div class="flex">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <div class="v1-img mx-[100px]">
+                        <img src="assets/img/div.col-xxl-5.png" alt="">
+                    </div>
+                    <div class="value-content">
+                        <span class="text-[rgba(0,0,0,0.30)] text-[12px] lg:text-[16px] uppercase font-semibold block lg:inline-block  text-center lg:text-left">Why Choose Us</span>
+                        <h1 class=" text-[27px] lg:text-[58px] font-semibold leading-tight text-center  lg:text-left">What makes us the <br> best.</h1>
+                        <div class="box mt-[40px] flex px-[25px] py-[22px] rounded-[10px] shadow-[0px_5px_20px_0px_rgba(0,0,0,0.03);]">
+                            <img src="img/icon_108.svg.svg" alt="">
+                                <h2 class="text-[15px] lg:text-[22px] font-semibold ps-[16px]">Lowest Price.</h2>
+                        </div>
+                        <div class="box mt-[20px] flex px-[24px] py-[22px] rounded-[10px] shadow-[0px_5px_20px_0px_rgba(0,0,0,0.03);]">
+                            <div class="img">
+                                <img src="img/icon_109.svg.svg" alt="">
+                            </div>
+                            <div class="content ps-[17px]">
+                                <h2 class=" text-[16px]  lg:text-[22px] font-semibold pb-[13px]">Fast Process & Loan</h2>
+                                <p class=" text-[16px] lg:text-[18px] text-[#212529]">Practice what you learned on realistic lorem quis <br> test questions testing.</p>
+                            </div>
+                        </div>
+                        <div class="box mt-[22px] flex px-[24px] py-[20px] rounded-[10px] shadow-[0px_5px_20px_0px_rgba(0,0,0,0.03);]">
+                            <img src="img/icon_110.svg.svg" alt="">
+                                <h2 class="text-[15px] lg:text-[22px] font-semibold ps-[16px]">Guaranteed Return & Claim</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="view py-[95px] bg-[#F6F9FB] px-[100px]">
+        <h1 class="text-[32px] lg:text-[58px] text-center pb-[50px]">Client Feedback</h1>
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1  lg:grid-cols-3">
+                <div class="px-[25px] py-2">
+                    <div class="v1-conten relative shadow-[0px_30px_60px_0px rgba(19,45,73,0.05);] py-[51px] px-[71px] bg-white  rounded-[10px]">
+                        <h2 class="text-[14px] lg:text-[32px] font-semibold">Very Solid!!</h2>
+                        <img src="assets/img/List.png" class="absolute top-[80px] z-10" alt="">
+                        <img src="assets/img/icon_112.svg.png" class="absolute right-[50px] top-[60px]" alt="">
+                        <p class="text-[14px] lg:text-[23px] font-normal leading-tight py-[50px]">They not only understand what
+                            I say but read between the
+                            lines and also give me ideas of
+                            my own.</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-[12px] lg:text-[20px] font-semibold">Rashed Kabir,
+                            <span class="text-[12px] lg:text-[20px] font-normal text-[rgba(0,0,0,0.5)] ps-2">Claifornia</span></p>
+                            <span><img src="assets/img/review.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[26px] py-2">
+                    <div class="view-content relative shadow-[0px_30px_60px_0px rgba(19,45,73,0.05);] py-[50px] px-[70px] bg-white  rounded-[10px]">
+                        <h2 class="text-[16px] lg:text-[32px] font-semibold">Very Solid!!</h2>
+                        <img src="assets/img/List.png" class="absolute top-[80px] z-10" alt="">
+                        <img src="assets/img/icon_112.svg.png" class="absolute right-[50px] top-[60px]" alt="">
+                        <p class="text-[14px] lg:text-[23px] font-normal leading-tight py-[50px]">They not only understand what
+                            I say but read between the
+                            lines and also give me ideas of
+                            my own.</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-[14px] lg:text-[20px] font-semibold">Rashed Kabir,
+                            <span class="text-[14px] lg:text-[20px] font-normal text-[rgba(0,0,0,0.5)] ps-2">Claifornia</span></p>
+                            <span><img src="assets/img/review2.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[26px] py-2">
+                    <div class="view-content relative shadow-[0px_30px_60px_0px rgba(19,45,73,0.05);] py-[50px] px-[70px] bg-white  rounded-[10px]">
+                        <h2 class="text-[14px] lg:text-[32px] font-semibold">Very Solid!!</h2>
+                        <img src="assets/img/List.png" class="absolute top-[80px] z-10" alt="">
+                        <img src="assets/img/icon_112.svg.png" class="absolute right-[50px] top-[60px]" alt="">
+                        <p class="text-[14px] lg:text-[23px] font-normal leading-tight py-[50px]">They not only understand what
+                            I say but read between the
+                            lines and also give me ideas of
+                            my own.</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-[14px] lg:text-[20px] font-semibold">Rashed Kabir,
+                            <span class="text-[14px] lg:text-[20px] font-normal text-[rgba(0,0,0,0.5)] ps-2">Claifornia</span></p>
+                            <span><img src="assets/img/review.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+   <section class="py-[101px]">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="v2-conten py-5 text-center lg:text-left">
+                <span class="text-[rgba(0,0,0,0.30)] text-[16px] uppercase font-semibold">MOBILE APP</span>
+                <h1 class="text-[32px] lg:text-[58px] font-semibold leading-tight">Download our Jano <br> Application.</h1>
+                <p class="text-[12px] lg:text-[20px] text-[#48494E] py-[40px]">Get control of all your insurance needs anywhere, anytime</p>
+                <ul class="pb-[50px]">
+                    <li class="text-[14px] lg:text-[24px] pb-[10px]"><i class="fa-solid fa-check me-3 text-primery"></i>Compare different insurance Item</li>
+                    <li class="text-[14px] lg:text-[24px] pb-[10px]"><i class="fa-solid fa-check me-3 text-primery"></i>Buy, store and share all your policies online</li>
+                    <li class="text-[14px] lg:text-[24px] pb-[10px]"><i class="fa-solid fa-check me-3 text-primery"></i>Email & Live chat.</li>
+                </ul>
+                <img src="assets/img/google.png" class="inline pe-[10px]" alt="">
+                <img src="assets/img/apple.png" class="inline" alt="">
+            </div>
+            <div class="app-img">
+                <img src="assets/img/div.col-lg-6.png" class="w-[648px] h-[600px]" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-[#F6F9FB]">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 py-[100px] px-[60px] ">
+            <div class="form bg-white py-[50px] my-[10px] ps-5 rounded-l-lg">
+                <form class="py-[20px] border-none text-center">
+                    <input type="text" placeholder="Your name" class="border border-gray w-[400px] h-[50px]
+                    placeholder:text-black  rounded-lg py-[18px] pr-[80px] pl-[20px] my-[10px] outline-none">
+                    <input type="email" placeholder="Email"
+                    class="border border-gray w-[400px] h-[50px]
+                    placeholder:text-black  rounded-lg py-[18px] pr-[80px] pl-[20px] my-[10px] outline-none">
+                        <input type="textarea" placeholder="Your message"
+                        class="border border-gray w-[400px] h-[50px]
+                        placeholder:text-black  rounded-lg py-[18px] pr-[80px] pl-[20px] my-[10px] outline-none">      
+                    <div class="btn  mt-[25px] ">
+                        <a href="#"
+                        class=" bg-pink px-[150px] py-[20px]  rounded-lg  text-white text-center">send message</a>
+                    </div>
+                </form>
+                <h1 class="text-[16px] font-medium text-center pt-[25px]"><span class="text-[16px] font-normal text-[rgba(0,0,0,0.6)] pe-2">Been here before?</span>Check your query</h1>
+            </div>
+            <div class="expereince bg-white py-[50px] my-[10px] ps-[50px] rounded-r-lg ms-[8px]">
+                <img src="assets/img/icon_114.svg.png" class="w-[20px] lg:w-[35px] h-[20px] lg:h-[35px]" alt="">
+                <h1 class="text-[32px] lg:text-[55px] font-medium py-[5px]">Let’s talk with
+                   <br> expereince
+                    <br>advisors.</h1>
+                    <p class="text-[13px] lg:text-[20px] font-normal">eiusmod tempor incididunt. Ut enim mim veniam,
+                       <br> quis nostrud elit lorem dolor.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-[115px] pt-[52px]">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-2">
+            <div class="Blog ps-[52px] ">
+                <h1 class="text-[30px] lg:text-[50px]  font-semibold pt-[30px] lg:pt-[15px]">Our Blog</h1>
+            </div>
+            <div class="flex justify-end ">
+                <div class="btn my-[31px] pe-[11px]">
+                    <a href="#" class=" px-[32px] py-[15px] inline-block rounded-lg  text-white bg-pink text-[16px]">
+                        Go to Blog
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="flex grid grid-cols-1 lg:grid-cols-3 text-center lg:text-left">
+            <div class="v3-conten pb-[31px] pt-[50px]">
+                <img src="assets/img/link1.png" class="w-[455px] h-[300] mx-auto lg:mx-0" alt="">
+                <span class="text-[rgba(0,0,0,0.6)] text-[9px] lg:text-[16px] pt-[30px] inline-block font-semibold tracking-widest">23 APR, 2022</span>
+                <p class="text-[15px] lg:text-[26px] font-semibold mb-[25px]">A Discount Cartridge dsu is
+                   <br> Better Ever.</p>
+                   <div class="btn pt-[20px]">
+                    <a href="#"
+                        class=" border-2 border-[pink] px-[45px] py-[13px] rounded-full  text-pink text-center font-semibold text-[18px]">Read More
+                        </a>
+                    </div>
+            </div>
+
+            <div class="our-blog pb-[32px] pt-[51px] ">
+                <img src="assets/img/link2.png" class=" w-[455px] h-[300] mx-auto lg:mx-0" alt="">
+                <span class="text-[rgba(0,0,0,0.6)] text-[10px] lg:text-[16px] pt-[30px] inline-block font-semibold Class
+                Properties
+                tracking-tighter	letter-spacing: -0.05em;
+                tracking-tight	letter-spacing: -0.025em;
+                tracking-normal	letter-spacing: 0em;
+                tracking-widest">14 MARCH, 2022</span>
+                <p class="text-[15px] lg:text-[26px] font-semibold mb-[25px]">Truck Side Advertising Isn It
+                   <br> Time for action.</p>
+                   <div class="btn pt-[20px]">
+                    <a href="#"
+                        class=" border-2 border-[pink] px-[45px] py-[13px] rounded-full  text-pink text-center font-semibold text-[18px]">Read More
+                        </a>
+                    </div>
+            </div>
+
+            <div class="our-blog pb-[30px] pt-[50px]">
+                <img src="assets/img/link3.png" class=" w-[455px] h-[300] mx-auto lg:mx-0" alt="">
+                <span class="text-[rgba(0,0,0,0.6)] text-[10px] lg:text-[16px] pt-[30px] inline-block font-semibold tracking-widest">27 FEB, 2022</span>
+                <p class="text-[15px] lg:text-[26px] font-semibold mb-[25px]">A Discount Cartridge dsu is
+                   <br> Better Ever.</p>
+                   <div class="btn pt-[20px] ">
+                    <a href="#"
+                        class="  border-2 border-[pink] px-[45px] py-[13px] rounded-full  text-pink text-center font-semibold text-[18px]">Read More
+                        </a>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+
+
+      <!-- footer start  -->
+      <section class="footer bg-[#1E1E1E] py-[112px] relative after:content-[''] after:absolute after:bg-[url('/img/banner1.png')] after:bottom-0 after:left-[80px] after:w-[230px] after:h-[300px] after:bg-cover after:bg-no-repeat
+      before:content-[''] before:absolute before:bg-[url('/img/banner2.png')] before:bottom-[5px] before:right-[145px] before:w-[290px] before:h-[320px] before:bg-cover before:bg-no-repeat">
+          <div class="container mx-auto">
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 text-center lg:text-left">
+                  <div class="footer-content z-10">
+                      <img src="assets/img/Link → logo_02.png.png" alt="" class="mx-auto lg:mx-0">
+                      <h4 class=" text-[18px] pt-[24px] pb-[50px] text-[rgba(255,255,255,0.5)]">Best Insurance Company.</h4>
+                      <h4 class="text-[rgba(255,255,255,0.5)] text-[15px] ">© 2023 - 2024 jano inc.</h4>
+                  </div>
+                  <div class="footer-content text-white">
+                      <h1 class="text-[24px] font-normal pb-[5px]">Links</h1>
+                      <ul class="text-[17px] font-normal text-[rgba(255,255,255,0.5)]">
+                          <li class="pt-[15px]"><a href="#">Home</a></li>
+                          <li class="pt-[10px]"><a href="#">Pricing</a></li>
+                          <li class="pt-[10px]"><a href="#">About us</a></li>
+                          <li class="pt-[10px]"><a href="#">Careers</a></li>
+                          <li class="pt-[10px]"><a href="#">Features</a></li>
+                          <li class="pt-[10px]"><a href="#">Blog</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-content text-white">
+                      <h1 class="text-[24px] font-normal">Services</h1>
+                      <ul class="text-[17px] font-normal text-[rgba(255,255,255,0.5)]">
+                          <li class="pt-[15px]"><a href="#">Health Insurance Plans</a></li>
+                          <li class="pt-[10px]"><a href="#">Car Insurance</a></li>
+                          <li class="pt-[10px]"><a href="#">Investment</a></li>
+                          <li class="pt-[10px]"><a href="#">Mediclaim Policy</a></li>
+                          <li class="pt-[10px]"><a href="#">Others</a></li>
+                          <li class="pt-[10px]"><a href="#">Health Insurance</a></li>
+                      </ul>
+                  </div>
+                  <div class="footer-content text-white">
+                      <h1 class="text-[24px] font-normal">Address</h1>
+                          <h4 class="text-[17px] font-normal text-[rgba(255,255,255,0.5)] pt-[15px] pb-[40px]">2190 Zinai terrace, Lake view <br> house state, 10 no road.</h4>
+                          <span class="inline-block pe-2"><a href="#"><i class="fa-brands fa-facebook-f w-[40px] h-[40px] bg-[rgba(255,255,255,0.10)] flex justify-center items-center rounded-full"></i></a></span>
+                          <span class="inline-block pe-2"><a href="#"><i class="fa-brands fa-twitter w-[40px] h-[40px] bg-[rgba(255,255,255,0.10)] flex justify-center items-center rounded-full "></i></a></span>
+                          <span class="inline-block"><a href="#"><i class="fa-brands fa-linkedin-in w-[40px] h-[40px] bg-[rgba(255,255,255,0.10)] flex justify-center items-center rounded-full "></i></a></span>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- footer end -->
+
+
+
+
+    <script src="assets/js/tailwind.js"></script>
+    <script src="assets/js/tailwind.config.js"></script>
+</body>
+
+</html>
